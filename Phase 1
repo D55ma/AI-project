@@ -1,0 +1,4 @@
+Define your problem mathematically as a Constraint Satisfaction Problem:
+- Define the variables and domains. 
+- Define the constraints.
+- Define the objective function. 

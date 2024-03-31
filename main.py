@@ -58,8 +58,6 @@ if __name__ == "__main__":
                 sys.exit("Something went wrong. Perhaps there is not enough color for this map")  # Exit if there are not enough colors for the map
             print(selected_city, color)  # Print the city and its color
         
-        # Add "Any Color" for cities with no neighbors
-        alone_cities = [graph[city].append("Any Color") for city, neighbours in graph.items() if len(neighbours) == 0]
         
         # Print the computational time taken to color the map
         print("Computational time:", time.time() - startTime, "s")
